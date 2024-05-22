@@ -1,10 +1,23 @@
-.userprofile {
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SliderPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
     display: flex;
     flex-direction: column;
 }
 
 
-.userprofilein {
+.inContainer {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -12,7 +25,7 @@
     gap: 20px;
 }
 
-.userprofile .userprofilein .left {
+.container .inContainer .left {
     width: 20%;
     /* background-color: aqua; */
     border: 1px solid rgb(207, 207, 207);
@@ -20,7 +33,7 @@
     min-height: 60vh;
 }
 
-.userprofile .userprofilein .right {
+.container .inContainer .right {
     width: 60%;
     /* background-color: aqua; */
     border: 1px solid rgb(207, 207, 207);
@@ -29,7 +42,7 @@
 }
 
 @media (max-width: 1000px) {
-    .userprofile .userprofilein .left {
+    .container .inContainer .left {
         width: 30%;
         /* background-color: aqua; */
         border: 1px solid rgb(207, 207, 207);
@@ -37,7 +50,7 @@
         min-height: 50vh;
     }
 
-    .userprofilein {
+    .inContainer {
         display: flex;
         width: 100%;
         justify-content: center;
@@ -47,7 +60,7 @@
 }
 
 @media (max-width: 1000px) {
-    .userprofile .userprofilein .left {
+    .container .inContainer .left {
         width: 30%;
         /* background-color: aqua; */
         border: 1px solid rgb(207, 207, 207);
@@ -55,7 +68,7 @@
         min-height: 50vh;
     }
 
-    .userprofile .userprofilein .right {
+    .container .inContainer .right {
         width: 68%;
         /* background-color: aqua; */
         border: 1px solid rgb(207, 207, 207);
@@ -63,7 +76,7 @@
         min-height: 50vh;
     }
 
-    .userprofilein {
+    .inContainer {
         display: flex;
         width: 100%;
         justify-content: center;
@@ -73,13 +86,13 @@
 }
 
 /* @media (max-width: 800px) {
-    .userprofile .userprofilein .left {
+    .container .inContainer .left {
         width: 20%;
         border: 1px solid rgb(207, 207, 207);
         border-radius: 5px;
         min-height: 50vh;
     }
-    .userprofile .userprofilein .right {
+    .container .inContainer .right {
         width: 78%;
         border: 1px solid rgb(207, 207, 207);
         border-radius: 5px;
@@ -88,7 +101,7 @@
 } */
 
 @media (max-width: 500px) {
-    .userprofilein {
+    .inContainer {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -97,7 +110,7 @@
         gap: 20px;
     }
 
-    .userprofile .userprofilein .left {
+    .container .inContainer .left {
         width: 97%;
         /* background-color: aqua; */
         border: 1px solid rgb(207, 207, 207);
@@ -107,7 +120,7 @@
         min-height: 0;
     }
 
-    .userprofile .userprofilein .right {
+    .container .inContainer .right {
         width: 97%;
         /* background-color: aqua; */
         border: 1px solid rgb(207, 207, 207);

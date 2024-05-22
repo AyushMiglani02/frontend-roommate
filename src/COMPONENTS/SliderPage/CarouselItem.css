@@ -1,0 +1,42 @@
+.item_container{
+    display: flex;
+    width: 100%;
+}
+.info{
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.otherinfo{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.sleephrs{
+    padding-top: 0.25rem;
+}
+.row>div{
+    min-width: 30%;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 40%;
+    height: max-content;
+    padding: 0.5rem 0;
+    font-size: 25px;
+}
+.N{
+    background-color: rgb(246, 66, 66);
+}
+.Y{
+    background-color: rgb(17, 168, 3);
+}
