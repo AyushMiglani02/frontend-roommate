@@ -1,0 +1,132 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SliderPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 20px;
+}
+
+.container .inContainer .left {
+    width: 20%;
+    /* background-color: aqua; */
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    min-height: 60vh;
+}
+
+.container .inContainer .right {
+    width: 60%;
+    /* background-color: aqua; */
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    min-height: 60vh;
+}
+
+@media (max-width: 1000px) {
+    .container .inContainer .left {
+        width: 30%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+
+    .inContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container .inContainer .left {
+        width: 30%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+
+    .container .inContainer .right {
+        width: 68%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+
+    .inContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 10px;
+    }
+}
+
+/* @media (max-width: 800px) {
+    .container .inContainer .left {
+        width: 20%;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+    .container .inContainer .right {
+        width: 78%;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+} */
+
+@media (max-width: 500px) {
+    .inContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 20px;
+    }
+
+    .container .inContainer .left {
+        width: 97%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        /* min-height: 50vh; */
+        align-self: center;
+        min-height: 0;
+    }
+
+    .container .inContainer .right {
+        width: 97%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        /* min-height: 50vh; */
+        align-self: center;
+        min-height: 0;
+    }
+}
